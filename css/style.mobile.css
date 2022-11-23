@@ -77,4 +77,9 @@ header nav ul li a {
   min-width: 0;
 }
 
+footer {
+  margin-top: 5rem;
+  position: static;
+}
+
 /*# sourceMappingURL=style.mobile.css.map */

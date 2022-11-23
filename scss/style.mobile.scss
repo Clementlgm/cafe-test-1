@@ -2,7 +2,6 @@
 
 header nav {
   flex-direction: column;
-
   h2 {
     margin-left: 0;
     display: flex;
@@ -98,4 +97,11 @@ header nav {
       min-width: 0;
     }
   }
+}
+
+// fouter
+
+footer {
+  margin-top: 5rem;
+  position: static;
 }
