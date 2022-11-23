@@ -47,33 +47,33 @@ header nav ul li a {
   margin-bottom: 6rem;
 }
 
-section {
+.map {
   min-width: 0;
   margin-top: 5rem;
 }
-section .container {
+.map .container {
   margin: auto;
   flex-direction: column;
 }
-section .container hr {
+.map .container hr {
   margin-left: 0;
 }
-section .container .text-where {
+.map .container .text-where {
   margin-left: 1rem;
 }
 
-section {
+.contact {
   display: block;
   margin: 0 2rem;
   margin-top: 5rem;
 }
-section .contain h2 {
+.contact .contain h2 {
   min-width: 0;
 }
-section .contain input {
+.contact .contain input {
   min-width: 0;
 }
-section .contain textarea {
+.contact .contain textarea {
   min-width: 0;
 }
 
