@@ -1,0 +1,101 @@
+// header
+
+header nav {
+  flex-direction: column;
+
+  h2 {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  ul {
+    flex-direction: column;
+
+    li {
+      display: block;
+      width: 100%;
+
+      a {
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
+
+/* value proposition */
+
+.vp {
+  background: url(/img/frame.jpg) center center/cover;
+  height: 50rem;
+
+  .vp-content {
+    padding: 2rem;
+    width: 75%;
+    h1 {
+      font-size: 4rem;
+    }
+  }
+}
+
+//  features
+
+.features {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem;
+}
+
+// person
+
+.person {
+  background: url(/img/person-1.jpg) center center/cover;
+  height: 30rem;
+}
+
+// reservation
+
+.container {
+  margin: 0 2rem;
+  margin-bottom: 6rem;
+}
+
+// map
+
+section {
+  min-width: 0;
+  margin-top: 5rem;
+
+  .container {
+    margin: auto;
+    flex-direction: column;
+
+    hr {
+      margin-left: 0;
+    }
+
+    .text-where {
+      margin-left: 1rem;
+    }
+  }
+}
+
+// contact
+
+section {
+  display: block;
+  margin: 0 2rem;
+  margin-top: 5rem;
+  .contain {
+    h2 {
+      min-width: 0;
+    }
+    input {
+      min-width: 0;
+    }
+    textarea {
+      min-width: 0;
+    }
+  }
+}

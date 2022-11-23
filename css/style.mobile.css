@@ -1,0 +1,80 @@
+header nav {
+  flex-direction: column;
+}
+header nav h2 {
+  margin-left: 0;
+  display: flex;
+  justify-content: center;
+}
+header nav ul {
+  flex-direction: column;
+}
+header nav ul li {
+  display: block;
+  width: 100%;
+}
+header nav ul li a {
+  display: block;
+  text-align: center;
+}
+
+/* value proposition */
+.vp {
+  background: url(/img/frame.jpg) center center/cover;
+  height: 50rem;
+}
+.vp .vp-content {
+  padding: 2rem;
+  width: 75%;
+}
+.vp .vp-content h1 {
+  font-size: 4rem;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem;
+}
+
+.person {
+  background: url(/img/person-1.jpg) center center/cover;
+  height: 30rem;
+}
+
+.container {
+  margin: 0 2rem;
+  margin-bottom: 6rem;
+}
+
+section {
+  min-width: 0;
+  margin-top: 5rem;
+}
+section .container {
+  margin: auto;
+  flex-direction: column;
+}
+section .container hr {
+  margin-left: 0;
+}
+section .container .text-where {
+  margin-left: 1rem;
+}
+
+section {
+  display: block;
+  margin: 0 2rem;
+  margin-top: 5rem;
+}
+section .contain h2 {
+  min-width: 0;
+}
+section .contain input {
+  min-width: 0;
+}
+section .contain textarea {
+  min-width: 0;
+}
+
+/*# sourceMappingURL=style.mobile.css.map */
